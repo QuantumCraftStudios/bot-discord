@@ -58,7 +58,8 @@ async function findExistingStatusMessage(channel, client) {
             (msg) =>
                 msg.author.id === client.user.id &&
                 msg.embeds.length > 0 &&
-                msg.embeds[0].title === "📶 État des services QuantumCraft"
+                msg.embeds[0].title ===
+                    "📶 État des services QuantumCraft Studios"
         );
 
         if (existingMessage) {
