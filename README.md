@@ -18,3 +18,7 @@ DISCORD_TOKEN=
 CLIENT_ID=
 GUILD_ID=
 ```
+
+```bash
+pnpm start
+```
