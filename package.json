@@ -1,0 +1,22 @@
+{
+    "name": "quantumcraft-studios-bot",
+    "version": "1.0.0",
+    "description": "Bot Discord pour le serveur de l'hébergeur QuantumCraft Studios.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "quantumcraft"
+    ],
+    "author": "Jessy D - PDG QuantumCraft Studios",
+    "license": "ISC",
+    "packageManager": "pnpm@10.15.0",
+    "dependencies": {
+        "discord.js": "^14.24.2",
+        "dotenv": "^17.2.3"
+    }
+}
