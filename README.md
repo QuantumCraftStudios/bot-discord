@@ -21,6 +21,14 @@ DOTENV_CONFIG_QUIET=true
 DISCORD_TOKEN=votre_discord_token
 CLIENT_ID=votre_client_id
 GUILD_ID=votre_guild_id
+
+DEBUG_MODE=false
+```
+
+## Déploiement des commandes slash
+
+```bash
+pnpm run deploy
 ```
 
 ## Démarrer le bot
