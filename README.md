@@ -23,6 +23,7 @@ CLIENT_ID=votre_client_id
 GUILD_ID=votre_guild_id
 
 STATUS_CHANNEL_ID=votre_salon_discord
+HORAIRES_CHANNEL_ID=votre_salon_discord
 
 DEBUG_MODE=false
 ```
