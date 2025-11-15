@@ -11,14 +11,24 @@ cd bot-discord
 pnpm install
 ```
 
+## Configuration
+
+Créer un fichier `.env` à la racine et ajoutez les variables :
+
 ```bash
 DOTENV_CONFIG_QUIET=true
 
-DISCORD_TOKEN=
-CLIENT_ID=
-GUILD_ID=
+DISCORD_TOKEN=votre_discord_token
+CLIENT_ID=votre_client_id
+GUILD_ID=votre_guild_id
 ```
+
+## Démarrer le bot
 
 ```bash
 pnpm start
 ```
+
+## Licence
+
+MIT License - voir le fichier LICENSE pour plus de détails.
